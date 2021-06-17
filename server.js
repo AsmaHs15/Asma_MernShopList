@@ -3,7 +3,7 @@ const mongoose = require ("mongoose");
 
 
 // Require connectDB
-const connectDB = require("./config/connectDB");
+const connectDB = require('./config/connectDB');
 
 
 const items = require('./routes/api/items')
